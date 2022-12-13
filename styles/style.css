@@ -1,0 +1,917 @@
+@font-face {
+  font-family: "RF Dewi";
+  src: local("RF Dewi Ultrabold"), local("RF-Dewi-Ultrabold"),
+    url("../font/RFDewi/RFDewi-Ultrabold.woff2") format("woff2"),
+    url("../font/RFDewi/RFDewi-Ultrabold.woff") format("woff"),
+    url("../font/RFDewi/RFDewi-Ultrabold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Museo Sans";
+  src: local("Museo Sans 700"), local("Museo-Sans-700"),
+    url("MuseoSansCyrl-700.woff2") format("woff2"),
+    url("MuseoSansCyrl-700.woff") format("woff"),
+    url("MuseoSansCyrl-700.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  font-size: 10px;
+}
+
+/*CSS - уровень 2 (селектор по типу) - Задание 1*/
+body {
+  margin: 0;
+  /* background-image: url(../img/back1.svg);
+  background-repeat: no-repeat; */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+.background-img {
+  position: absolute;
+  width: 80.8rem;
+  height: 66rem;
+  z-index: -1;
+}
+/*CSS - уровень 2 (селектор класса) - Задание 1*/
+.main-banner-slogan-text {
+  margin-top: 100px;
+}
+.main-header-logo {
+  display: flex;
+  align-items: center;
+}
+.main-header-links {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 10rem;
+  flex-grow: 1;
+}
+.main-header-links__nav-ul {
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  list-style: none;
+}
+/*CSS - уровень 2 (Селектор дочерних элементов) - Задание 1*/
+.main-header-links__nav-ul > .main-header-links__nav-li {
+  background-color: transparent;
+}
+.links {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 400;
+}
+.links_tel {
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+.links_call {
+  text-decoration-line: underline;
+  font-size: 1.3rem;
+}
+.main-header-contacts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding-top: 15px;
+  margin-left: 80px;
+  gap: 0;
+}
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
+.button {
+  border-radius: 58px;
+}
+.main-banner {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+.main-banner__slogan {
+  display: flex;
+  margin-bottom: 120px;
+}
+.main-banner-slogan-description {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.main-banner__slogan-logo {
+  margin-right: 250px;
+}
+.main-banner-slogan-text__span--rel {
+  position: relative;
+}
+.animate-img {
+  /* height: 100%; */
+}
+@keyframes pulse-rotate {
+  0% {
+    transform: scale3d(1, 1, 1) rotate(0deg);
+  }
+
+  50% {
+    transform: scale3d(1.05, 1.05, 1.05) rotate(4deg);
+  }
+
+  100% {
+    transform: scale3d(1, 1, 1) rotate(0deg);
+  }
+}
+.header_programs {
+  position: relative;
+}
+.header-img {
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  right: 0;
+  top: 1000px;
+}
+/*CSS - уровень 2 (псевдокласс) - Задание 1*/
+.animate-img:hover {
+  animation: 1s pulse-rotate;
+}
+.logo1 {
+  position: absolute;
+  left: 23.5rem;
+  top: -6rem;
+  width: 13.3rem;
+  height: 14.1rem;
+}
+.main-header-links__nav-li {
+  margin-left: 2.6rem;
+  margin-right: 2.6rem;
+}
+/*CSS - уровень 2 (псевдокласс) - Задание 1*/
+.links_header:hover {
+  color: #ff8c00;
+}
+.links_header:active {
+  color: #090909;
+}
+.links_header {
+  font-size: 1.6rem;
+  transition: 0.5s;
+}
+.links_call {
+  text-decoration-line: underline;
+  font-size: 13px;
+}
+/*CSS - уровень 2 (псевдоэлемент) - Задание 1*/
+.links_header:after {
+  display: block;
+  content: "";
+  height: 2px;
+  width: 0%;
+  background-color: currentColor;
+  transition: width 0.5s ease-in-out;
+}
+/*CSS - уровень 2 (псевдокласс и псевдоэлемент) - Задание 1*/
+.links_header:hover:after {
+  width: 100%;
+}
+
+.list-of-programs__description {
+  margin: 27px 32px 49px 23px;
+}
+
+.bz-content {
+  box-sizing: content-box;
+}
+/*CSS - уровень 2 (универсальные селекторы и псевдоэлементы) - Задание 1*/
+.bz-content *,
+.bz-content *:before,
+.bz-content *:after {
+  box-sizing: inherit;
+}
+
+.bz-border {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+/*CSS - уровень 2 (универсальные селекторы и псевдоэлементы) - Задание 1*/
+.bz-border *,
+.bz-border *:before,
+.bz-border *:after {
+  box-sizing: inherit;
+}
+
+.city-garden-points {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  font-size: 16px;
+}
+.green-ellipse {
+  width: 120px;
+  height: 120px;
+}
+.icon {
+  position: absolute;
+  color: #ffffff;
+  font-size: 70px;
+}
+.icon_border {
+  left: 26px;
+  top: 15px;
+}
+.icon_content {
+  left: 85px;
+  top: 75px;
+}
+.main-banner-img {
+  position: absolute;
+  left: -100px;
+  top: 380px;
+}
+/*CSS - уровень 2 (псевдокласс) - Задание 1*/
+.main-banner-img:hover {
+  animation: 1s pulse-rotate;
+}
+.main-banner__animate-img {
+  position: relative;
+}
+.animate-img {
+  position: absolute;
+}
+.animate-img-1 {
+  width: 64rem;
+  filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.1));
+  left: -110px;
+  position: absolute;
+}
+.animate-img_2 {
+  width: 12rem;
+  left: 320px;
+  top: 40px;
+}
+.animate-img_3 {
+  width: 20rem;
+  bottom: -50px;
+  left: -200px;
+}
+.animate-img_4 {
+  width: 13rem;
+  left: -70px;
+  top: 150px;
+}
+.animate-img_5 {
+  width: 26rem;
+  right: 0;
+  top: 450px;
+  filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.15));
+}
+.city-garden-points__point {
+  position: relative;
+  animation: 1.5s fadeInDown ease;
+}
+.icon-animate {
+  animation-name: flipp;
+  animation-iteration-count: infinite;
+}
+.header_tiles {
+  position: relative;
+}
+.insta-img1 {
+  height: auto;
+  width: auto;
+  left: -200px;
+  top: -60px;
+}
+.insta-img2 {
+  height: 29px;
+  width: 24px;
+  left: -500px;
+  bottom: -100px;
+  filter: drop-shadow(10px 20px 10px rgba(0, 0, 0, 0.5));
+}
+.insta-img3 {
+  height: auto;
+  width: auto;
+  right: -200px;
+  filter: drop-shadow(10px 20px 10px rgba(0, 0, 0, 0.5));
+}
+.insta-img4 {
+  height: auto;
+  width: auto;
+  right: -400px;
+  filter: drop-shadow(10px 20px 10px rgba(0, 0, 0, 0.5));
+}
+@keyframes flipp {
+  0% {
+    transform: rotateY(0deg);
+  }
+  50% {
+    transform: rotateY(360deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
+.icon-animate1 {
+  animation-duration: 5s;
+  animation-delay: 9s;
+}
+.icon-animate2 {
+  animation-duration: 5s;
+  animation-delay: 10s;
+}
+.icon-animate3 {
+  animation-duration: 5s;
+  animation-delay: 11s;
+}
+.icon-animate4 {
+  animation-duration: 5s;
+  animation-delay: 12s;
+}
+.icon-animate5 {
+  animation-duration: 5s;
+  animation-delay: 13s;
+}
+/*CSS - уровень 2 (псевдоклассы) - Задание 1*/
+.city-garden-points__point:nth-child(1) {
+  animation-delay: 1.5s;
+  animation-fill-mode: both;
+}
+.city-garden-points__point:nth-child(2) {
+  animation-delay: 3s;
+  animation-fill-mode: both;
+}
+.city-garden-points__point:nth-child(3) {
+  animation-delay: 4.5s;
+  animation-fill-mode: both;
+}
+.city-garden-points__point:nth-child(4) {
+  animation-delay: 6s;
+  animation-fill-mode: both;
+}
+.city-garden-points__point:nth-child(5) {
+  animation-delay: 7.5s;
+  animation-fill-mode: both;
+}
+
+.city-garden-points__point--border {
+  display: inline-block;
+  width: 15.4rem;
+  padding: 0;
+  margin: 5rem;
+}
+.programs-schedule {
+  display: flex;
+
+  flex-wrap: wrap;
+  column-gap: 28px;
+  width: 210px;
+  margin-top: 17px;
+}
+.programs-name {
+  font-weight: 400;
+  font-size: 24px;
+}
+.programs-schedule__second {
+  display: flex;
+  column-gap: 48px;
+}
+.programs-schedule__meal {
+  display: flex;
+  column-gap: 9px;
+}
+.programs-food__ul {
+  list-style-type: none;
+  padding-left: 10px;
+}
+.programs-food__li {
+  padding-left: 0.2em;
+}
+/*CSS - уровень 2 (псевдоэлемент) - Задание 1*/
+.programs-food__li::marker {
+  vertical-align: middle;
+  content: url(../img/li.svg);
+  line-height: 1.5;
+}
+
+.programs-schedule-name {
+  font-weight: 700;
+  font-size: 14px;
+  color: #63a233;
+}
+.button_programs {
+  display: block;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+  background-color: inherit;
+  text-transform: uppercase;
+  border: 2px solid #ef3120;
+  color: #ef3120;
+  padding: 17px 30px;
+}
+.button_form {
+  padding: 17px 60px;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  background-color: inherit;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 16px;
+}
+.main-footer-city-garden__container {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+.main-footer-city-garden-contacts {
+  display: flex;
+  justify-content: space-between;
+}
+.main-footer-city-garden-contacts__logo {
+  display: flex;
+  align-items: center;
+}
+.main-header__container {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.form-city-garden {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #282828;
+  position: relative;
+  font-size: 16px;
+}
+.footer-img1 {
+  height: 300px;
+  width: 300px;
+  top: -50px;
+  left: -20px;
+  filter: drop-shadow(15px 15px 20px rgba(0, 0, 0, 0.25));
+}
+.footer-img2 {
+  height: 130px;
+  width: 130px;
+  left: 350px;
+  top: -60px;
+}
+.footer-img3 {
+  height: 200px;
+  width: 200px;
+  top: 290px;
+  left: -20px;
+  filter: drop-shadow(15px 15px 20px rgba(0, 0, 0, 0.25));
+}
+.footer-img4 {
+  height: 190px;
+  width: 230px;
+  right: 0;
+  bottom: 50px;
+  filter: drop-shadow(15px 15px 20px rgba(0, 0, 0, 0.25));
+}
+.form-city-garden__container {
+  background-color: #282828;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.form-city-garden__logo {
+  margin-bottom: 45px;
+}
+.form-logo {
+  display: flex;
+  justify-content: center;
+}
+.form-contacts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 60px;
+}
+.form-contacts__column {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  gap: 60px;
+  /* width: calc(100% / 2 - 60px); */
+}
+.form-contacts__column--second {
+  gap: 60px;
+  justify-content: flex-start;
+}
+.form-contacts__column-element {
+  /* width: calc(100% / 2 - 60px); */
+}
+.form-contacts__label {
+  position: absolute;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 17px;
+  color: #ffffff;
+  z-index: 1;
+}
+.form-contacts__input {
+  background-color: transparent;
+  border: 0;
+  border-bottom: 1px solid #ffffff;
+  line-height: 0px;
+  width: 438px;
+  padding-top: 20px;
+  color: #ffffff;
+}
+/*CSS - уровень 2 (псевдоклассы) - Задание 1*/
+.form-contacts__input:focus {
+  outline: none;
+}
+/*CSS - уровень 2 (селектор атрибута) - Задание 1*/
+option[value] {
+  background-color: #162223;
+}
+.form-contacts__input--textarea {
+  height: 130px;
+  resize: none;
+  line-height: 15px;
+}
+.form-contacts__input--date {
+  line-height: 20px;
+}
+.select-option {
+  background: #282828;
+}
+.mailing-radio__element {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+.mailing-radio__element-check {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+.mailing-radio__title {
+  display: inline-flex;
+  column-gap: 19px;
+  align-items: center;
+}
+.mailing-radio-checkbox-block {
+  font-size: 14px;
+  color: #ffffff;
+}
+/*CSS - уровень 2 (псевдоэлемент) - Задание 1*/
+.mailing-radio__title:before {
+  content: "";
+  background-repeat: no-repeat;
+  width: 21px;
+  height: 21px;
+  background: url("../img/radio.svg");
+}
+/*CSS - уровень 2 (псевдоэлемент) - Задание 1*/
+.mailing-radio__title--checkbox:before {
+  background: url("../img/checkbox.svg");
+}
+.mailing-radio-block {
+  display: flex;
+  gap: 50px;
+  color: #ffffff;
+  font-size: 14px;
+}
+/*CSS - уровень 2 (универсальные (смежные) селекторы + псевдокласс + псевдоэлемент) - Задание 1*/
+.mailing-radio__element:checked + .mailing-radio__title:before {
+  background-position: center center;
+  background-image: url("../img/radiochecked.svg");
+  background-repeat: no-repeat;
+}
+/*CSS - уровень 2 (универсальные (смежные) селекторы + псевдокласс + псевдоэлемент) - Задание 1*/
+.mailing-radio__element-check:checked + .mailing-radio__title--checkbox:before {
+  background-image: url("../img/checkboxchecked.svg");
+}
+.main-footer-city-garden__container {
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+.main-footer-city-garden-contacts__info {
+  display: flex;
+  width: 340px;
+  flex-direction: column;
+  padding-top: 50px;
+  align-content: flex-end;
+  row-gap: 9px;
+  color: azure;
+}
+.main-footer-city-garden__info-about-site {
+  display: flex;
+  justify-content: space-between;
+  color: #ffffff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.main-footer-city-garden-contacts__media-links {
+  display: flex;
+  align-items: center;
+  column-gap: 2.6rem;
+}
+.links_footer-email {
+  color: #ffffff;
+  text-decoration-line: underline;
+}
+.links_footer-tel {
+  color: #ffffff;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+.footer-address {
+  font-size: 1.4rem;
+}
+.webprofy {
+  font-weight: 500;
+}
+.company {
+  padding-right: 23px;
+}
+.main-tiles {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.title {
+  font-weight: 700;
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+.title_contact {
+  margin-top: 10px;
+  color: #bfe142;
+}
+.header {
+  font-size: 14px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.info__programs {
+  margin-top: 0;
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.main-tiles__email {
+  font-weight: 600;
+}
+.line {
+  margin: 25px auto;
+  width: 87px;
+  border: 0.5px solid #000000;
+}
+.logo {
+  margin-top: 0;
+  margin-left: 0;
+  width: 21.1rem;
+  height: 2.2rem;
+}
+footer {
+  background-color: #000000;
+}
+
+.empty {
+  height: 100px;
+}
+.main-banner-slogan-text {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 10rem;
+  font-weight: 900;
+  line-height: 80%;
+  margin-bottom: 0;
+}
+.main-banner-slogan-text__span {
+  display: block;
+}
+.button_choose-program {
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+  display: block;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.6rem;
+  text-align: center;
+  background-color: #162223;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 1.7rem 3rem;
+}
+
+.tiles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+.tile {
+  height: 283px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 283px);
+  gap: 15px;
+  justify-content: center;
+}
+.programs {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  font-size: 14px;
+}
+.list-of-programs {
+  font-weight: 400;
+}
+.list-of-programs__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 362px);
+  gap: 36px;
+  justify-content: center;
+}
+.footer-button {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 7rem;
+  margin-left: 3rem;
+}
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 8px;
+  }
+  .main-header__container {
+    flex-direction: column;
+  }
+  .main-header-links {
+    margin: 0 auto;
+  }
+  .main-header-links__nav-li {
+    margin-right: 2.6rem;
+  }
+  .links_header {
+    font-size: 1.8rem;
+    transition: 0.5s;
+  }
+  .main-header-contacts {
+    margin: 0 auto;
+    padding-top: 0;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 10rem;
+  }
+  .links_tel {
+    width: 16rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-pepper,
+  .footer-mushroom {
+    width: 15rem;
+  }
+  .footer-img3,
+  .insta-img3,
+  .insta-img4,
+  .animate-img-1,
+  .animate-img_2 {
+    display: none;
+  }
+  .links_call {
+    display: flex;
+    width: 15rem;
+    flex-direction: column;
+  }
+  .main-banner-slogan-text {
+    margin-top: 5rem;
+  }
+  .button_choose-program {
+    margin-top: 5rem;
+  }
+  .animate-img {
+    display: none;
+  }
+  .form-contacts__column--second {
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: center;
+  }
+  .footer-button {
+    display: flex;
+    justify-content: center;
+  }
+  .background-img {
+    top: -8rem;
+    width: calc(100% - 3rem);
+  }
+}
+
+@media screen and (max-width: 480px) and (min-width: 320px) {
+  html {
+    font-size: 7px;
+  }
+  .animate-img-1 {
+    display: none;
+  }
+
+  .main-header__container {
+    flex-direction: column;
+  }
+  .main-header-links {
+    display: block;
+    margin: 0 auto;
+  }
+  .links_header {
+    font-size: 1.8rem;
+    transition: 0.5s;
+  }
+  .main-banner__animate-img {
+    display: none;
+  }
+  .main-header-contacts {
+    margin: 0 auto;
+    padding-top: 0;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 10rem;
+  }
+  .links_tel {
+    width: 16rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .links_call {
+    display: flex;
+    width: 15rem;
+    flex-direction: column;
+  }
+  .main-banner-slogan-text {
+    margin-top: 4rem;
+    font-size: 7.5rem;
+  }
+
+  .animate-img {
+    display: none;
+  }
+  .logo1 {
+    left: 17.5rem;
+    top: -4rem;
+    width: 10.3rem;
+    height: 10.1rem;
+  }
+  .button_choose-program {
+    margin-top: 5rem;
+    font-size: 1.3rem;
+  }
+  .background-img {
+    top: -7rem;
+    width: calc(100% - 3rem);
+  }
+
+  .main-footer-city-garden-contacts__media-links {
+    order: 1;
+  }
+  .main-footer-city-garden-contacts__info {
+    order: 2;
+    padding-top: 0;
+  }
+  .form-contacts__column--second {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .main-footer-city-garden-contacts {
+    padding-top: 5rem;
+    padding-left: 5rem;
+    row-gap: 4rem;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
