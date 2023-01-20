@@ -1,0 +1,51 @@
+.ali-start {
+  background-color: #651fff;
+}
+.slogan_ali-start {
+  margin: 0;
+}
+.ali-start__header {
+  padding-top: 49px;
+}
+.ali-start__steps {
+  margin-top: 60px;
+}
+.ali-start__steps-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 1vw;
+  row-gap: 30px;
+  padding-bottom: 80px;
+}
+.ali-start__step-first {
+  display: flex;
+  column-gap: 0.5vw;
+  max-width: 550px;
+  width: 100%;
+}
+.ali-start__step-last {
+  display: flex;
+  column-gap: 1vw;
+  max-width: 550px;
+  width: 100%;
+}
+.ali-start__step {
+  display: flex;
+  column-gap: 0.7vw;
+}
+.ali-start__step-text--first,
+.ali-start__step-text--third,
+.ali-start__step-text--fourth {
+  max-width: 100px;
+}
+.ali-start__step-text--second {
+  max-width: 170px;
+}
+.ali-start__step-img--second {
+  padding-right: 17px;
+  display: flex;
+}
+.ali-start__step-arrow-img {
+  width: 52px;
+}

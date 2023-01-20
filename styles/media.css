@@ -1,0 +1,174 @@
+@media screen and (max-width: 768px) {
+  .main-header__title-link,
+  .main-footer__title-link {
+    font-size: 36px;
+    line-height: 45px;
+    max-height: 13px;
+  }
+  .main-header__link {
+    font-size: 12px;
+  }
+  .main-header__wrapper,
+  .main-footer__wrapper {
+    row-gap: 2vw;
+  }
+  .main-header__links,
+  .main-footer__links {
+    gap: 2.4vw;
+    padding-top: 0;
+  }
+
+  .main-header__contacts {
+    font-size: 12px;
+    justify-content: flex-start;
+  }
+  .main-header__contacts-address {
+    column-gap: 1.9vw;
+  }
+  .main-header__contacts-media {
+    column-gap: 1.9vw;
+  }
+  .main-header__contacts-tel {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .button_header {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .greeting-banner__slogan-title {
+    font-size: 46px;
+    line-height: 56px;
+  }
+  .greeting-banner__slogan-ali {
+    max-width: 100%;
+  }
+  .button_slogan {
+    font-size: 20px;
+    padding: 14px 36px;
+  }
+  .marketing-problems__wrapper {
+    flex-wrap: wrap;
+  }
+  .situation_left {
+    display: flex;
+    justify-content: center;
+    border-right: 0;
+    padding-left: 0;
+    padding-bottom: 40px;
+  }
+  .sticker_situation {
+    position: relative;
+    margin-bottom: 15px;
+    left: 0;
+    top: 0;
+  }
+  .situation__text {
+    font-size: 16px;
+  }
+  .situation {
+    margin-right: auto;
+  }
+  .situation_solve,
+  .container-right {
+    padding-left: 0;
+  }
+  .slogan {
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+  }
+  .offer-points {
+    justify-content: center;
+  }
+  .offer-points__element {
+    min-height: 110px;
+  }
+  .offer__button {
+    text-align: center;
+    margin-bottom: 45px;
+  }
+  .ali-difficulties__left-list {
+    padding-right: 0;
+  }
+  .ali-difficulties__left-element {
+    padding-left: 0;
+  }
+  .ali-difficulties__left-list-li::before {
+    left: 5px;
+  }
+  .ali-clients__main-wrapper {
+    row-gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .ali-start__step-first {
+    justify-content: center;
+  }
+  .ali-start__step-last {
+    justify-content: center;
+    padding-left: 12px;
+  }
+  .main-header__contacts--footer {
+    margin-top: 10px;
+  }
+  .main-header__contacts-middle {
+    flex-wrap: wrap;
+    row-gap: 10px;
+  }
+}
+@media screen and (max-width: 480px) and (min-width: 320px) {
+  .greeting-banner__slogan-info {
+    padding-top: 290px;
+  }
+  .sticker__text {
+    left: 85px;
+  }
+  .sticker_dif,
+  .sticker_solution,
+  .sticker_situation {
+    text-align: center;
+  }
+  .ali-difficulties__right-list {
+    row-gap: 20px;
+    margin-bottom: 45px;
+  }
+  .ali-difficulties__right-list-li {
+    max-width: fit-content;
+  }
+  .button_dif {
+    padding: 16px 42px;
+  }
+  .ali-start__step-img--second {
+    display: none;
+  }
+  .ali-start__step-first,
+  .ali-start__step-last {
+    flex-wrap: wrap;
+    row-gap: 20px;
+    justify-content: flex-start;
+  }
+  .ali-start__step-last {
+    padding-left: 0;
+  }
+  .ali-start__step {
+    column-gap: 10px;
+  }
+
+  .ali-start__step-text--first,
+  .ali-start__step-text--third,
+  .ali-start__step-text--fourth {
+    max-width: fit-content;
+  }
+  .ali-start__steps {
+    margin-left: 15vw;
+  }
+  .ali-start__steps-wrapper {
+    row-gap: 20px;
+  }
+  .sticker__text--solution {
+    left: 135px;
+  }
+}

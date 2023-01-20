@@ -1,0 +1,96 @@
+.marketing-problems {
+  background-color: #fff;
+}
+
+.marketing-problems__container {
+  padding: 100px 0 0;
+}
+.situation {
+  max-width: 600px;
+  padding: 0;
+  padding-bottom: 70px;
+  margin-right: 0;
+}
+.marketing-problems__wrapper {
+  display: flex;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.situation__wrapper {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.sticker_situation {
+  position: absolute;
+  left: -90px;
+  top: 20px;
+}
+
+.situation_left {
+  border-right: 1.6px solid #000000;
+  padding-left: 90px;
+}
+.marketing-problems__container-element {
+  max-width: 486px;
+  padding: 0;
+}
+.situation__img {
+  max-width: 100%;
+}
+.situation_solve {
+  padding-left: 5vw;
+  padding-top: 20px;
+}
+.situation__text {
+  padding-right: 80px;
+  margin-top: 50px;
+}
+.container-right {
+  padding-left: 30px;
+}
+.solution {
+  display: flex;
+  column-gap: 40px;
+}
+.sticker__text {
+  position: absolute;
+  left: 25px;
+  bottom: -5px;
+}
+.solution__text-first {
+  margin-top: 30px;
+}
+.solution__text-second {
+  margin-top: 10px;
+  max-width: 298px;
+}
+.solution-text {
+  margin-bottom: 0;
+  margin-top: 20px;
+  text-align: center;
+}
+.sticker_solution {
+  position: relative;
+}
+.solution-block {
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+}
+.solution__img-block {
+  width: 100%;
+  min-width: 100px;
+}
+.solution__img {
+  max-width: 100%;
+}
+.solution_second {
+  row-gap: 0;
+}
+.solution__img-block--second {
+  margin-top: 10px;
+}
+.situation_pad {
+  padding-bottom: 90px;
+}

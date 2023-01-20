@@ -1,760 +1,713 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>Город-сад</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aliexpress</title>
     <link rel="stylesheet" href="./styles/normalize.css" />
-    <link rel="stylesheet" href="./styles/style.css" />
-    <link rel="stylesheet" href="./styles/fontello.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@400;500;700&family=Rubik:wght@700&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
+    <link rel="stylesheet" href="./styles/layout.css" />
+    <link rel="stylesheet" href="./styles/fonts.css" />
+    <link rel="stylesheet" href="./styles/fontello.css" />
+    <link rel="stylesheet" href="./styles/greeting-banner.css" />
+    <link rel="stylesheet" href="./styles/main-header.css" />
+    <link rel="stylesheet" href="./styles/marketing-problems.css" />
+    <link rel="stylesheet" href="./styles/offer.css" />
+    <link rel="stylesheet" href="./styles/ali-difficulties.css" />
+    <link rel="stylesheet" href="./styles/ali-clients.css" />
+    <link rel="stylesheet" href="./styles/ali-form.css" />
+    <link rel="stylesheet" href="./styles/ali-start.css" />
+    <link rel="stylesheet" href="./styles/main-ali-footer.css" />
+    <link rel="stylesheet" href="./styles/media.css" />
   </head>
   <body>
-    <div class="back">
-      <img class="background-img" src="../img/back1.svg" alt="" />
-    </div>
-
     <header class="main-header">
-      <div class="main-header__container">
-        <div class="main-header-logo">
-          <a href="">
-            <img class="logo" src="./img/logo.svg" alt="" />
-          </a>
-        </div>
-
-        <div class="main-header-links">
-          <nav class="main-header-links__nav">
-            <ul class="main-header-links__nav-ul">
-              <li class="main-header-links__nav-li">
-                <!-- HTML-якорь -->
-                <a href="#program" class="links links_header">Программы</a>
-              </li>
-              <li class="main-header-links__nav-li">
-                <a href="#" class="links links_header">Доставка</a>
-              </li>
-              <li class="main-header-links__nav-li">
-                <a href="#" class="links links_header">На чем основано меню?</a>
-              </li>
-              <li class="main-header-links__nav-li">
-                <a href="#" class="links links_header">О компании</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-        <div class="main-header-contacts">
-          <div class="main-header-contacts__tel">
-            <a href="tel:+7(499)521-41-04" class="links links_header links_tel"
-              >+7(499)521-41-04</a
-            >
+      <div class="container">
+        <div class="main-header__wrapper">
+          <div class="main-header__title">
+            <a href="#" class="main-header__title-link">ПРОВОДНИК</a>
           </div>
-          <div class="break"></div>
-          <div class="main-header-contacts__call">
-            <a href="#" class="links links_header links_call"
-              >Обратный звонок</a
-            >
+          <nav class="main-header__links">
+            <a href="#" class="main-header__link">УСЛУГИ</a>
+            <a href="#" class="main-header__link">ЦЕНЫ</a>
+            <a href="#" class="main-header__link">КАК ЭТО РАБОТАЕТ</a>
+            <a href="#" class="main-header__link">БЛОГ</a>
+            <a href="#" class="main-header__link">О КОМПАНИИ</a>
+            <a href="#" class="main-header__link">ПРОИЗВОДИТЕЛЯМ</a>
+            <a href="#" class="main-header__link">ПРОЕКТЫ</a>
+            <a href="#" class="main-header__link">КОНТАКТЫ</a>
+          </nav>
+          <div class="main-header__contacts">
+            <div class="main-header__contacts-address">
+              <i class="icon-header-size-location icon-location"></i>
+              <p class="main-header__contacts-address-text">
+                г. Москва, ул. Улица, 20 с. 1
+              </p>
+            </div>
+            <div class="main-header__contacts-media">
+              <i
+                class="icon-header-size-phone icon-phone_bluetooth_speaker_24px"
+              ></i>
+              <div class="main-header__contacts-media-element">
+                <div class="main-header__contacts-tel">
+                  <a
+                    class="main-header__contacts-tel-link"
+                    href="tel:8(123)123-12-88"
+                    >8(123) 123-12-88</a
+                  >
+                </div>
+                <div class="main-header__contacts-email">
+                  <a
+                    class="main-header__contacts-email-link"
+                    href="mailto:info@provodnik.ru"
+                    >info@provodnik.ru</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div>
+              <button class="button button_black button_header">
+                Обратный звонок
+              </button>
+            </div>
           </div>
         </div>
       </div>
     </header>
-    <main>
-      <section class="main-banner">
-        <section class="main-banner__slogan">
-          <div class="main-banner__slogan-logo">
-            <h1 class="main-banner-slogan-text">
-              <span class="main-banner-slogan-text__span">FITS</span>
-              <span
-                class="main-banner-slogan-text__span main-banner-slogan-text__span--rel"
-                >YOUR<img class="logo1" src="./img/logo1.svg" alt=""
-              /></span>
-              <span class="main-banner-slogan-text__span">MACROS</span>
-            </h1>
-            <p class="main-banner-slogan-description">
-              Ваш здоровый рацион питания на каждый день
-            </p>
-            <img class="main-banner-img" src="./img/grtAsset1.svg" alt="" />
-            <div>
-              <form action="#">
-                <button class="button button_choose-program">
-                  Подобрать программу
-                </button>
-              </form>
-            </div>
-          </div>
-          <div class="main-banner__animate-img">
-            <img class="animate-img-1" src="./img/grtAsset0.svg" alt="" />
+
+    <section class="greeting-banner">
+      <div class="back-white"></div>
+      <div class="container greeting-banner__position">
+        <section class="greeting-banner__slogan-info">
+          <div class="greeting-banner__slogan animate__fadeInLeft">
+            <h1 class="greeting-banner__slogan-title">ЗАЙДИ НА</h1>
             <img
-              class="animate-img animate-img_2"
-              src="./img/grtAsset3.svg"
-              alt=""
-            />
-            <img
-              class="animate-img animate-img_3"
-              src="./img/grtAsset4.svg"
-              alt=""
-            />
-            <img
-              class="animate-img animate-img_4"
-              src="./img/grtAsset2.svg"
+              class="greeting-banner__slogan-ali"
+              src="./img/Aliexpress_logo.svg"
               alt=""
             />
           </div>
+          <p class="greeting-banner__slogan-text animate__fadeInLeft">
+            Лучшее решение для небольших<br />
+            интернет-магазинов и производителей
+          </p>
+          <button class="button button_black button_slogan animate__fadeInLeft">
+            <span>Хочу на AliExpress</span>
+          </button>
         </section>
-      </section>
-      <div>
-        <img
-          class="animate-img animate-img_5"
-          src="./img/grtAsset5.svg"
-          alt=""
-        />
+        <div class="greeting-banner__background">
+          <div class="back-ellipse"></div>
+          <div class="back-ellipse back-ellipse_right"></div>
+          <img class="back-img-dev" src="./img/devushka.svg" alt="" />
+        </div>
+        <div
+          class="greeting-banner__background greeting-banner__background--non-hid"
+        >
+          <img class="back-img-mishen" src="./img/mishen_red.svg" alt="" />
+        </div>
       </div>
-      <section class="city-garden-points">
-        <div class="bz-border">
-          <div
-            class="city-garden-points__point city-garden-points__point--border animate__fadeInDown"
-          >
-            <img
-              class="green-ellipse icon-animate icon-animate1"
-              src="./img/Ellipse_green.svg"
-              alt=""
-            />
-            <i
-              class="icon icon-dinner icon_border icon-animate icon-animate1"
-            ></i>
+    </section>
+    <main>
+      <section class="marketing-problems">
+        <div class="container marketing-problems__container">
+          <div class="marketing-problems__wrapper">
+            <div class="container situation situation_left">
+              <div class="container marketing-problems__container-element">
+                <div class="situation__wrapper">
+                  <div class="sticker sticker_situation">
+                    <p class="sticker__text sticker__text--solution">
+                      Ситуация
+                    </p>
+                    <img src="./img/problem-sticker.svg" alt="" />
+                  </div>
+                  <img
+                    class="situation__img"
+                    src="./img/market-girl.svg"
+                    alt=""
+                  />
+                  <p class="situation__text">
+                    Вы тратите много сил и денег на маркетинг и рекламу своих
+                    товаров. Самые эффективные из каналов — дорогие и требуют
+                    большой работы.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="container situation situation_solve">
+              <div
+                class="container marketing-problems__container-element container-right"
+              >
+                <div class="situation__wrapper situation__wrapper--solution">
+                  <div class="sticker sticker_solution">
+                    <p class="sticker__text sticker__text--solution">Решение</p>
+                    <img src="./img/problem-sticker.svg" alt="" />
+                  </div>
+                  <p class="solution-text">Точнее, их два.</p>
+                  <div class="solution-block">
+                    <div class="solution">
+                      <div class="solution__img-block">
+                        <img
+                          class="solution__img"
+                          src="./img/solution1.svg"
+                          alt=""
+                        />
+                      </div>
+                      <p class="solution__text solution__text-first">
+                        Сотрудничать с существующим магазином на AliExpress и
+                        избавить себя от забот вроде вопросов колл-центра,
+                        хранения и доставки. И опять же – не тратиться на
+                        маркетинг.
+                      </p>
+                    </div>
+                    <div class="solution solution_second">
+                      <div
+                        class="solution__img-block solution__img-block--second"
+                      >
+                        <img
+                          class="solution__img"
+                          src="./img/solution2.svg"
+                          alt=""
+                        />
+                      </div>
 
-            <p>Разнообразное меню</p>
-          </div>
-
-          <div
-            class="city-garden-points__point city-garden-points__point--border animate__fadeInDown"
-          >
-            <img
-              class="green-ellipse icon-animate icon-animate2"
-              src="./img/Ellipse_green.svg"
-              alt=""
-            />
-            <i
-              class="icon icon-broccoli icon_border icon-animate icon-animate2"
-            ></i>
-
-            <p>Много офощей и фруктов</p>
-          </div>
-
-          <div
-            class="city-garden-points__point city-garden-points__point--border animate__fadeInDown"
-          >
-            <img
-              class="green-ellipse icon-animate icon-animate3"
-              src="./img/Ellipse_green.svg"
-              alt=""
-            />
-            <i
-              class="icon icon-water icon_border icon-animate icon-animate3"
-            ></i>
-
-            <p>Минимум соли, без сахара</p>
-          </div>
-
-          <div
-            class="city-garden-points__point city-garden-points__point--border animate__fadeInDown"
-          >
-            <img
-              class="green-ellipse icon-animate icon-animate4"
-              src="./img/Ellipse_green.svg"
-              alt=""
-            />
-            <i class="icon icon-pot icon_border icon-animate icon-animate4"></i>
-
-            <p>Полезные способы приготовления</p>
-          </div>
-
-          <div
-            class="city-garden-points__point city-garden-points__point--border animate__fadeInDown"
-          >
-            <img
-              class="green-ellipse icon-animate icon-animate5"
-              src="./img/Ellipse_green.svg"
-              alt=""
-            />
-            <i
-              class="icon icon-food-service icon_border icon-animate icon-animate5"
-            ></i>
-
-            <p>Бесконтактная доставка</p>
+                      <p class="solution__text solution__text-second">
+                        Cоздать магазин на маркетплейсе AliExpress и
+                        реализовывать товары покупателям со всего мира. Один
+                        емкий и грамотный канал продаж заменит все рекламные
+                        инструменты, которыми вы пользовались до этого.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
+      <section class="offer">
+        <div class="container offer-container">
+          <section class="container container_offer-content">
+            <div class="offer__wrapper">
+              <header class="offer__header-slogan">
+                <h2 class="slogan slogan_offer">
+                  Что вы получите с магазином<br />
+                  на AliExpress?
+                </h2>
+              </header>
+              <div class="offer-points">
+                <div class="offer-points__element">
+                  <i class="icon-calculator offer__icon"></i>
+                  <p class="offer__text">
+                    Снизите операционные расходы и расходы на маркетинг.
+                  </p>
+                </div>
+                <div class="offer-points__element">
+                  <i class="icon-graph offer__icon"></i>
+                  <p class="offer__text">
+                    Трафик из очень активных покупателей из регионов.
+                  </p>
+                </div>
 
-      <section class="programs">
-        <header class="header header_programs">
-          <div>
-            <h2 class="title" id="program">Программы</h2>
+                <div class="offer-points__element">
+                  <i class="icon-bigprodaji offer__icon"></i>
+                  <p class="offer__text">
+                    Сможете реализовывать продукцию в очень больших объемах.
+                  </p>
+                </div>
+                <div class="offer-points__element">
+                  <i class="icon-rub offer__icon"></i>
+                  <p class="offer__text">
+                    В 2020 году еще увеличите продажи за счет покупателей из
+                    стран СНГ.
+                  </p>
+                </div>
+              </div>
+              <div class="offer__button">
+                <button class="button button_orange button_offer">
+                  <span>Скачать предложение</span>
+                </button>
+              </div>
+            </div>
+          </section>
+          <div class="offer__background">
+            <img class="offer__back-img" src="./img/offer-tel.svg" alt="" />
           </div>
-          <div class="line"></div>
-          <div class="info">
-            <h3 class="info__programs">
-              уникальные подарки внутри от партнеров
-            </h3>
-          </div>
-        </header>
-        <div>
-          <img
-            class="animate-img header-img"
-            src="./img/grtAsset6.svg"
-            alt=""
-          />
         </div>
-        <article class="list-of-programs">
-          <div class="list-of-programs__grid">
-            <div class="list-of-programs__item">
-              <div>
-                <img src="./img/WhatsApp%20img.png" alt="" />
-              </div>
-              <div class="list-of-programs__description">
-                <h3 class="programs-name">Healthy&Tasty</h3>
-                <div class="programs-schedule-name">4 приема</div>
-                <div class="programs-schedule">
-                  <div class="programs-schedule__meal">
-                    <div><img src="./img/coffee1.svg" alt="" /></div>
-                    <div>завтрак</div>
-                  </div>
-                  <div class="programs-schedule__meal">
-                    <div><img src="./img/breakfast.svg" alt="" /></div>
-                    <div>перекус</div>
-                  </div>
-                  <div class="programs-schedule__second">
-                    <div class="programs-schedule__meal">
-                      <div><img src="./img/food.svg" alt="" /></div>
-                      <div>обед</div>
-                    </div>
-                    <div class="programs-schedule__meal">
-                      <div><img src="./img/cereal.svg" alt="" /></div>
-                      <div>ужин</div>
-                    </div>
-                  </div>
-                </div>
-                <div class="programs-food">
-                  <ul class="programs-food__ul">
-                    <li class="programs-food__li">
-                      Панкейки гречневые постные с соусом
-                    </li>
-                    <li class="programs-food__li">Крем-суп из шпината</li>
-                    <li class="programs-food__li">Тыква запечная с сахаром</li>
-                    <li class="programs-food__li">Голубцы овощные</li>
-                  </ul>
-                </div>
-                <div>
-                  <button class="button button_programs">
-                    Заказать программу
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div class="list-of-programs__item">
-              <div>
-                <img src="./img/WhatsApp%20img.png" alt="" />
-              </div>
-              <div class="list-of-programs__description">
-                <h3 class="programs-name">Healthy&Tasty</h3>
-                <div class="programs-schedule-name">4 приема</div>
-                <div class="programs-schedule">
-                  <div class="programs-schedule__meal">
-                    <div><img src="./img/coffee1.svg" alt="" /></div>
-                    <div>завтрак</div>
-                  </div>
-                  <div class="programs-schedule__meal">
-                    <div><img src="./img/breakfast.svg" alt="" /></div>
-                    <div>перекус</div>
-                  </div>
-                  <div class="programs-schedule__second">
-                    <div class="programs-schedule__meal">
-                      <div><img src="./img/food.svg" alt="" /></div>
-                      <div>обед</div>
-                    </div>
-                    <div class="programs-schedule__meal">
-                      <div><img src="./img/cereal.svg" alt="" /></div>
-                      <div>ужин</div>
-                    </div>
-                  </div>
-                </div>
-                <div class="programs-food">
-                  <ul class="programs-food__ul">
-                    <li class="programs-food__li">
-                      Панкейки гречневые постные с соусом
-                    </li>
-                    <li class="programs-food__li">Крем-суп из шпината</li>
-                    <li class="programs-food__li">Тыква запечная с сахаром</li>
-                    <li class="programs-food__li">Голубцы овощные</li>
-                  </ul>
-                </div>
-                <div>
-                  <button class="button button_programs">
-                    Заказать программу
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div class="list-of-programs__item">
-              <div>
-                <img src="./img/WhatsApp%20img.png" alt="" />
-              </div>
-              <div class="list-of-programs__description">
-                <h3 class="programs-name">Healthy&Tasty</h3>
-                <div class="programs-schedule-name">4 приема</div>
-                <div class="programs-schedule">
-                  <div class="programs-schedule__meal">
-                    <div><img src="./img/coffee1.svg" alt="" /></div>
-                    <div>завтрак</div>
-                  </div>
-                  <div class="programs-schedule__meal">
-                    <div><img src="./img/breakfast.svg" alt="" /></div>
-                    <div>перекус</div>
-                  </div>
-                  <div class="programs-schedule__second">
-                    <div class="programs-schedule__meal">
-                      <div><img src="./img/food.svg" alt="" /></div>
-                      <div>обед</div>
-                    </div>
-                    <div class="programs-schedule__meal">
-                      <div><img src="./img/cereal.svg" alt="" /></div>
-                      <div>ужин</div>
-                    </div>
-                  </div>
-                </div>
-                <div class="programs-food">
-                  <ul class="programs-food__ul">
-                    <li class="programs-food__li">
-                      Панкейки гречневые постные с соусом
-                    </li>
-                    <li class="programs-food__li">Крем-суп из шпината</li>
-                    <li class="programs-food__li">Тыква запечная с сахаром</li>
-                    <li class="programs-food__li">Голубцы овощные</li>
-                  </ul>
-                </div>
-                <div>
-                  <button class="button button_programs">
-                    Заказать программу
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div class="list-of-programs__item">
-              <div>
-                <img src="./img/WhatsApp%20img.png" alt="" />
-              </div>
-              <div class="list-of-programs__description">
-                <h3 class="programs-name">Healthy&Tasty</h3>
-                <div class="programs-schedule-name">4 приема</div>
-                <div class="programs-schedule">
-                  <div class="programs-schedule__meal">
-                    <div><img src="./img/coffee1.svg" alt="" /></div>
-                    <div>завтрак</div>
-                  </div>
-                  <div class="programs-schedule__meal">
-                    <div><img src="./img/breakfast.svg" alt="" /></div>
-                    <div>перекус</div>
-                  </div>
-                  <div class="programs-schedule__second">
-                    <div class="programs-schedule__meal">
-                      <div><img src="./img/food.svg" alt="" /></div>
-                      <div>обед</div>
-                    </div>
-                    <div class="programs-schedule__meal">
-                      <div><img src="./img/cereal.svg" alt="" /></div>
-                      <div>ужин</div>
-                    </div>
-                  </div>
-                </div>
-                <div class="programs-food">
-                  <ul class="programs-food__ul">
-                    <li class="programs-food__li">
-                      Панкейки гречневые постные с соусом
-                    </li>
-                    <li class="programs-food__li">Крем-суп из шпината</li>
-                    <li class="programs-food__li">Тыква запечная с сахаром</li>
-                    <li class="programs-food__li">Голубцы овощные</li>
-                  </ul>
-                </div>
-                <div>
-                  <button class="button button_programs">
-                    Заказать программу
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div class="list-of-programs__item">
-              <div>
-                <img src="./img/WhatsApp%20img.png" alt="" />
-              </div>
-              <div class="list-of-programs__description">
-                <h3 class="programs-name">Healthy&Tasty</h3>
-                <div class="programs-schedule-name">4 приема</div>
-                <div class="programs-schedule">
-                  <div class="programs-schedule__meal">
-                    <div><img src="./img/coffee1.svg" alt="" /></div>
-                    <div>завтрак</div>
-                  </div>
-                  <div class="programs-schedule__meal">
-                    <div><img src="./img/breakfast.svg" alt="" /></div>
-                    <div>перекус</div>
-                  </div>
-                  <div class="programs-schedule__second">
-                    <div class="programs-schedule__meal">
-                      <div><img src="./img/food.svg" alt="" /></div>
-                      <div>обед</div>
-                    </div>
-                    <div class="programs-schedule__meal">
-                      <div><img src="./img/cereal.svg" alt="" /></div>
-                      <div>ужин</div>
-                    </div>
-                  </div>
-                </div>
-                <div class="programs-food">
-                  <ul class="programs-food__ul">
-                    <li class="programs-food__li">
-                      Панкейки гречневые постные с соусом
-                    </li>
-                    <li class="programs-food__li">Крем-суп из шпината</li>
-                    <li class="programs-food__li">Тыква запечная с сахаром</li>
-                    <li class="programs-food__li">Голубцы овощные</li>
-                  </ul>
-                </div>
-                <div>
-                  <button class="button button_programs">
-                    Заказать программу
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </article>
       </section>
-      <section class="main-tiles">
-        <header class="header header_tiles">
-          <img
-            class="animate-img insta-img1"
-            src="./img/insta-list1.svg"
-            alt=""
-          />
-          <img
-            class="animate-img insta-img2"
-            src="./img/insta-bazilik.svg"
-            alt=""
-          />
-          <img
-            class="animate-img insta-img3"
-            src="./img/insta-bazilik-2.png"
-            alt=""
-          />
-          <img
-            class="animate-img insta-img4"
-            src="./img/insta-branch.svg"
-            alt=""
-          />
-          <div><h2 class="title">Инстаграм</h2></div>
-          <div class="line"></div>
-          <div class="info info_tiles">
-            <div class="main-tiles__email">@gorod-sad.com</div>
-            <div>#правильноепитание</div>
-            <div>-</div>
-            <div>#снижениевеса</div>
-            <div>-</div>
-            <div>#спортпит</div>
+      <section class="ali-difficulties">
+        <div class="container container_ali-difficulties">
+          <header class="ali-difficulties__header">
+            <h2 class="slogan slogan_ali-difficulties">
+              Почему выходить на AliExpress самостоятельно сложно?
+            </h2>
+          </header>
+        </div>
+        <div class="container ali-difficulties__container">
+          <div class="marketing-problems__wrapper ali-difficulties_wrapper">
+            <div
+              class="container situation situation_left situation_ali-difficulties"
+            >
+              <div
+                class="container marketing-problems__container-element marketing-problems__container-element--ali"
+              >
+                <div class="situation__wrapper">
+                  <div class="ali-difficulties__left-element">
+                    <div class="sticker sticker_dif">
+                      <p class="sticker__text">Самостоятельно</p>
+                      <img src="./img/dif-ali-left.svg" alt="" />
+                    </div>
+
+                    <ul class="ali-difficulties__left-list">
+                      <li class="ali-difficulties__left-list-li">
+                        <p class="ali-difficulties__left-list-text">
+                          Китайская площадка со сложными правилами и формулами.
+                        </p>
+                      </li>
+                      <li class="ali-difficulties__left-list-li">
+                        <p class="ali-difficulties__left-list-text">
+                          Ограниченные возможности без статуса технического
+                          партнера.
+                        </p>
+                      </li>
+                      <li class="ali-difficulties__left-list-li">
+                        <p class="ali-difficulties__left-list-text">
+                          Очень тяжело добиться высокого рейтинга магазинов и
+                          товаров – <br />
+                          <strong>главного фактора в выдаче по запросу.</strong>
+                        </p>
+                      </li>
+                    </ul>
+                  </div>
+                  <img class="situation__img" src="./img/diff-img.svg" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="container situation situation_pad">
+              <div
+                class="container marketing-problems__container-element container-right container-right_dif"
+              >
+                <div class="situation__wrapper situation__wrapper--solution">
+                  <div class="sticker sticker_dif sticker_dif-right">
+                    <p class="sticker__text sticker__text--ali">
+                      С техническим партнером Content Hub
+                    </p>
+                  </div>
+
+                  <div class="solution-block">
+                    <div class="solution ali-difficulties__right">
+                      <ul class="ali-difficulties__right-list">
+                        <li class="ali-difficulties__right-list-li">
+                          <img
+                            class="ali-difficulties__right-list-img"
+                            src="./img/right-li.svg"
+                            alt=""
+                          />
+                          <p class="ali-difficulties__right-list-text">
+                            Берем заключение договора на себя.
+                          </p>
+                        </li>
+                        <li class="ali-difficulties__right-list-li">
+                          <img
+                            class="ali-difficulties__right-list-img"
+                            src="./img/right-li.svg"
+                            alt=""
+                          />
+                          <p class="ali-difficulties__right-list-text">
+                            Помогаем с описанием товаров.
+                          </p>
+                        </li>
+                        <li class="ali-difficulties__right-list-li">
+                          <img
+                            class="ali-difficulties__right-list-img"
+                            src="./img/right-li.svg"
+                            alt=""
+                          />
+                          <p class="ali-difficulties__right-list-text">
+                            Брендируем магазин.
+                          </p>
+                        </li>
+                        <li class="ali-difficulties__right-list-li">
+                          <img
+                            class="ali-difficulties__right-list-img"
+                            src="./img/right-li.svg"
+                            alt=""
+                          />
+                          <p class="ali-difficulties__right-list-text">
+                            Создаем аккаунт.
+                          </p>
+                        </li>
+                        <li
+                          class="ali-difficulties__right-list-li ali-difficulties__right-list-li--last"
+                        >
+                          <img
+                            class="ali-difficulties__right-list-img"
+                            src="./img/right-li.svg"
+                            alt=""
+                          />
+                          <p class="ali-difficulties__right-list-text">
+                            Коннектим магазин с вашей CRM.
+                          </p>
+                        </li>
+                      </ul>
+                      <div class="ali-difficulties__tesis">
+                        <img
+                          class="ali-difficulties__tesis-img"
+                          src="./img/rost.svg"
+                          alt=""
+                        />
+                        <p class="ali-difficulties__tesis-text">
+                          И главное — продвигаем в рейтинге на первые позиции в
+                          выдаче.
+                        </p>
+                      </div>
+                      <div>
+                        <button class="button button_black button_dif">
+                          <span>Написать нам</span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-        </header>
-        <section class="main-tiles-flex">
-          <div class="empty"></div>
-          <!-- Flexbox -->
-          <div class="tiles">
-            <div class="tiles__tile">
-              <img src="./img/Group%20310.png" alt="" />
-            </div>
-            <div class="tiles__tile">
-              <img src="./img/Group%20311.png" alt="" />
-            </div>
-            <div class="tiles__tile">
-              <img src="./img/Group%20312.png" alt="" />
-            </div>
-            <div class="tiles__tile">
-              <img src="./img/Group%20313.png" alt="" />
-            </div>
-            <div class="tiles__tile">
-              <img src="./img/Group%20314.png" alt="" />
-            </div>
-            <div class="tiles__tile">
-              <img src="./img/Group%20313.png" alt="" />
-            </div>
-            <div class="tiles__tile">
-              <img src="./img/Group%20314.png" alt="" />
-            </div>
-            <div class="tiles__tile">
-              <img src="./img/Group%20311.png" alt="" />
-            </div>
-          </div>
-          <div class="empty"></div>
-        </section>
+        </div>
       </section>
-      <section class="main-tiles">
-        <header class="header header_tiles">
-          <div><h2 class="title">Инстаграм</h2></div>
-          <div class="line"></div>
-          <div class="info info_tiles">
-            <div class="main-tiles__email">@gorod-sad.com</div>
-            <div>#правильноепитание</div>
-            <div>-</div>
-            <div>#снижениевеса</div>
-            <div>-</div>
-            <div>#спортпит</div>
-          </div>
-        </header>
-        <section class="main-tiles-grid">
-          <div class="empty"></div>
-          <!-- Сетка grid -->
-          <div class="grid">
-            <div>
-              <img src="./img/Group%20310.png" alt="" />
+      <section class="ali-clients">
+        <div class="container container_ali-clients">
+          <header class="ali-clients__header">
+            <div class="container_ali-clients-header">
+              <h2 class="slogan slogan_ali-clients">
+                Кому интересно на AliExpress с Проводником?
+              </h2>
             </div>
-            <div>
-              <img src="./img/Group%20311.png" alt="" />
+          </header>
+          <section class="ali-clients__main">
+            <div class="ali-clients__main-wrapper">
+              <div class="ali-clients__client">
+                <div
+                  class="ali-clients__client-img-icon ali-clients__client-img"
+                >
+                  <i class="icon-dom"></i>
+                </div>
+                <div class="ali-clients__client-text">
+                  <h3 class="ali-clients__client-text-header">
+                    Небольшим интернет-магазинам
+                  </h3>
+                  <p class="ali-clients__client-text-header-p">
+                    С ограниченными ресурсами и бюджетом на рекламу.
+                  </p>
+                </div>
+              </div>
+              <div class="ali-clients__client">
+                <div class="ali-clients__client-img">
+                  <i class="ali-clients__client-img-icon icon-zavodik"></i>
+                </div>
+                <div class="ali-clients__client-text">
+                  <h3 class="ali-clients__client-text-header">
+                    Небольшим производителям
+                  </h3>
+                  <p class="ali-clients__client-text-header-p">
+                    Готовы поставлять товар реселлеру и не хотят заниматься
+                    продвижением товаров конечному покупателю.
+                  </p>
+                </div>
+              </div>
             </div>
-            <div>
-              <img src="./img/Group%20312.png" alt="" />
-            </div>
-            <div>
-              <img src="./img/Group%20313.png" alt="" />
-            </div>
-            <div>
-              <img src="./img/Group%20314.png" alt="" />
-            </div>
-            <div>
-              <img src="./img/Group%20313.png" alt="" />
-            </div>
-            <div>
-              <img src="./img/Group%20314.png" alt="" />
-            </div>
-            <div>
-              <img src="./img/Group%20311.png" alt="" />
-            </div>
-          </div>
-          <div class="empty"></div>
-        </section>
+          </section>
+        </div>
       </section>
-      <section class="form-city-garden">
-        <img
-          class="animate-img footer-img1"
-          src="./img/footer-mushroom.svg"
-          alt=""
-        />
-        <img
-          class="animate-img footer-img2"
-          src="./img/footer-greenery.svg"
-          alt=""
-        />
-        <img
-          class="animate-img footer-img3"
-          src="./img/footer-holop.svg"
-          alt=""
-        />
-        <img
-          class="animate-img footer-img4"
-          src="./img/footer-pepper.svg"
-          alt=""
-        />
-        <div class="form-city-garden__container">
-          <div class="form-city-garden__logo">
-            <div class="form-logo">
-              <img src="./img/logo-form.svg" alt="" />
-            </div>
-            <h2 class="title title_contact">Связаться с нами</h2>
-          </div>
-          <div>
-            <form method="post">
-              <div class="form-contacts">
-                <div class="form-contacts__column">
-                  <div class="form-contacts__column-element">
-                    <label class="form-contacts__label" for="name">Имя</label
-                    ><input
-                      class="form-contacts__input"
-                      type="text"
-                      id="name"
-                      name="user_name"
-                      placeholder="Введите имя"
-                      value=""
-                      required=""
+      <section class="ali-start">
+        <div class="container">
+          <header class="ali-start__header">
+            <h2 class="slogan slogan_ali-start">Как начать?</h2>
+          </header>
+          <section class="ali-start__steps">
+            <div class="ali-start__steps-wrapper">
+              <div class="ali-start__step-first">
+                <div class="ali-start__step">
+                  <div class="ali-start__step-img">
+                    <img src="./img/start1.svg" alt="" />
+                  </div>
+                  <div class="ali-start__step-text ali-start__step-text--first">
+                    <p>Заполните форму.</p>
+                  </div>
+                </div>
+                <div class="ali-start__step">
+                  <div
+                    class="ali-start__step-arrow ali-start__step-img--second"
+                  >
+                    <img
+                      class="ali-start__step-arrow-img"
+                      src="./img/arrow.svg"
+                      alt=""
                     />
                   </div>
-                  <div class="form-contacts__column-element">
-                    <label class="form-contacts__label" for="e-mail"
-                      >E-mail*</label
-                    ><input
-                      class="form-contacts__input"
-                      type="text"
-                      id="e-mail"
-                      name="user_e-mail"
-                      placeholder="Введите e-mail"
-                      value=""
-                      required=""
+                  <div class="ali-start__step-img">
+                    <img src="./img/start2.svg" alt="" />
+                  </div>
+                  <div
+                    class="ali-start__step-text ali-start__step-text--second"
+                  >
+                    <p>Обсудим ваши задачи с менеджером.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="ali-start__step-last">
+                <div class="ali-start__step">
+                  <div
+                    class="ali-start__step-arrow ali-start__step-img--second"
+                  >
+                    <img
+                      class="ali-start__step-arrow-img"
+                      src="./img/arrow.svg"
+                      alt=""
                     />
                   </div>
-                  <div class="form-contacts__column-element">
-                    <label class="form-contacts__label"
-                      >Выбрать время звонка</label
-                    >
-                    <div>
+                  <div class="ali-start__step-img">
+                    <img src="./img/start3.svg" alt="" />
+                  </div>
+                  <div class="ali-start__step-text ali-start__step-text--third">
+                    <p>Сформируем пакет услуг.</p>
+                  </div>
+                </div>
+                <div class="ali-start__step">
+                  <div
+                    class="ali-start__step-arrow ali-start__step-img--second"
+                  >
+                    <img
+                      class="ali-start__step-arrow-img"
+                      src="./img/arrow.svg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="ali-start__step-img">
+                    <img src="./img/start4.svg" alt="" />
+                  </div>
+                  <div
+                    class="ali-start__step-text ali-start__step-text--fourth"
+                  >
+                    <p>Заключим договор.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </section>
+      <section class="ali-form">
+        <div class="container container_ali-form">
+          <div class="container container_ali-forma">
+            <div class="container container_ali-forma-content">
+              <header class="ali-form">
+                <h2 class="slogan slogan_ali-form">
+                  Пожалуйста, оставьте свои контакты
+                </h2>
+              </header>
+              <div class="ali-form__wrapper">
+                <form class="ali-form__forma" method="post">
+                  <div class="container container_forma-content">
+                    <div class="ali-form-contacts__element">
+                      <label class="ali-form-contacts__label" for="name"
+                        >Имя</label
+                      ><input
+                        class="form-contacts__input"
+                        type="text"
+                        id="name"
+                        name="user_name"
+                        placeholder="Как к вам обращаться"
+                        value=""
+                        required=""
+                      />
+                    </div>
+                    <div class="ali-form-contacts__element">
+                      <label class="ali-form-contacts__label">Выбрать</label>
+
                       <select
                         class="form-contacts__input form-contacts__input--date"
                       >
-                        <option class="select-option" value="12">11:00</option>
-                        <option class="select-option" value="12">12:00</option>
-                        <option class="select-option" value="13">13:00</option>
-                        <option class="select-option" value="14">14:00</option>
-                        <option class="select-option" value="15">15:00</option>
-                        <option class="select-option" value="16">16:00</option>
-                        <option class="select-option" value="17">17:00</option>
-                        <option class="select-option" value="18">18:00</option>
-                        <option class="select-option" value="19">19:00</option>
-                        <option class="select-option" value="20">20:00</option>
-                        <option class="select-option" value="21">11:00</option>
+                        <option
+                          class="select-option"
+                          value="12"
+                          selected="true"
+                          disabled="disabled"
+                        >
+                          Выберите род деятельности
+                        </option>
+                        <option class="select-option" value="12">
+                          работаю
+                        </option>
+                        <option class="select-option" value="13">сплю</option>
+                        <option class="select-option" value="14">ем</option>
                       </select>
                     </div>
-                  </div>
-                  <div class="mailing-radio-block">
-                    <label class="mailing-radio">
-                      <input
-                        class="mailing-radio__element"
-                        type="radio"
-                        name="user_mailing"
+                    <div class="ali-form-contacts__element">
+                      <label class="ali-form-contacts__label" for="telephon"
+                        >Телефон</label
+                      ><input
+                        class="form-contacts__input"
+                        type="tel"
+                        id="telephon"
+                        name="user_telephon"
+                        placeholder="+7 (123) 12-12-123"
+                        value=""
+                        required=""
                       />
-                      <span class="mailing-radio__title"
-                        >Получать рассылку</span
-                      >
-                    </label>
-                    <label class="mailing-radio">
-                      <input
-                        class="mailing-radio__element"
-                        type="radio"
-                        name="user_mailing"
+                    </div>
+                    <div class="ali-form-contacts__element">
+                      <label class="ali-form-contacts__label" for="domen"
+                        >Домен (если есть)</label
+                      ><input
+                        class="form-contacts__input"
+                        type="text"
+                        id="domen"
+                        name="user_domen"
+                        placeholder=""
+                        value=""
+                        required=""
                       />
-                      <span class="mailing-radio__title"
-                        >Не получать рассылку</span
-                      >
-                    </label>
-                  </div>
-                  <div class="mailing-radio-checkbox-block">
-                    <label class="mailing-radio">
-                      <input
-                        class="mailing-radio__element-check"
-                        type="checkbox"
-                        name="user_mailing-check"
+                    </div>
+                    <div class="ali-form-contacts__element">
+                      <label class="ali-form-contacts__label" for="e-mail"
+                        >E-mail</label
+                      ><input
+                        class="form-contacts__input"
+                        type="text"
+                        id="e-mail"
+                        name="user_e-mail"
+                        placeholder="Нужен для связи"
+                        value=""
+                        required=""
                       />
-                      <span
-                        class="mailing-radio__title mailing-radio__title--checkbox"
-                      >
-                        Я соглашаюсь на обработку персональных данных
-                      </span>
-                    </label>
-                  </div>
-                </div>
-                <div
-                  class="form-contacts__column form-contacts__column--second"
-                >
-                  <div class="form-contacts__column-element">
-                    <label class="form-contacts__label" for="second-name"
-                      >Фамилия</label
-                    ><input
-                      class="form-contacts__input"
-                      type="text"
-                      id="second-name"
-                      name="user_second-name"
-                      placeholder="Введите фамилию"
-                      value=""
-                      required=""
-                    />
-                  </div>
-                  <div class="form-contacts__column-element">
-                    <label class="form-contacts__label" for="telephon"
-                      >Телефон</label
-                    ><input
-                      class="form-contacts__input"
-                      type="tel"
-                      id="telephon"
-                      name="user_telephon"
-                      placeholder="Введите номер телефона"
-                      value=""
-                      required=""
-                    />
-                  </div>
-                  <div class="form-contacts__column-element">
-                    <label class="form-contacts__label" for="comment"
-                      >Комментарий</label
+                    </div>
+
+                    <div class="ali-form-contacts__element">
+                      <label
+                        class="ali-form-contacts__label ali-form-contacts__label--focus"
+                        for="focus"
+                        >Focused state</label
+                      ><input
+                        class="form-contacts__input"
+                        type="text"
+                        id="focus"
+                        name="user_e-mail"
+                        placeholder="Input caption"
+                        value=""
+                        required=""
+                      />
+                    </div>
+                    <div
+                      class="ali-form-contacts__element ali-form-contacts__element--info"
                     >
-                    <textarea
-                      class="form-contacts__input form-contacts__input--textarea"
-                      name="user-comment"
-                      id="comment"
-                    ></textarea>
+                      <p class="ali-form-contacts__element-text">
+                        Оправляя форму, вы соглашаетесь на сбор, обработку и
+                        хранение ваших данных сотрудниками компании.
+                      </p>
+                      <a
+                        href="#"
+                        class="ali-form-contacts__element-text ali-form-contacts__element-link"
+                        >Политика конфиденциальности</a
+                      >
+                    </div>
+                    <div
+                      class="ali-form-contacts__element ali-form-contacts__element--position"
+                    >
+                      <button
+                        type="submit"
+                        class="button button_black button_forma"
+                      >
+                        Отправить
+                      </button>
+                    </div>
                   </div>
-                </div>
+                </form>
               </div>
-              <div class="footer-button">
-                <button class="button button_form" type="submit">
-                  Отправить
-                </button>
-              </div>
-            </form>
+            </div>
           </div>
         </div>
       </section>
     </main>
-    <footer class="main-footer-city-garden">
-      <section class="main-footer-city-garden__container">
-        <section>
-          <div class="main-footer-city-garden-contacts">
-            <div class="main-footer-city-garden-contacts__logo">
-              <img src="./img/logo2.svg" alt="" />
-            </div>
-            <div class="main-footer-city-garden-contacts__info">
-              <div>
-                <a href="tel:+7(499)521-41-04" class="links links_footer-tel"
-                  >+7(499)521-41-04</a
-                >
-              </div>
-              <div class="footer-address">
-                г. Москва, Семеновская наб. 2/1с1, офис 1003
-              </div>
-              <div>
-                <a
-                  href="mailto:info@gorodsad.ru"
-                  class="links links_footer-email"
-                  >info@gorodsad.ru</a
-                >
-              </div>
-            </div>
-            <div class="main-footer-city-garden-contacts__media-links">
-              <div>
-                <a href="#"><img src="./img/facebook.svg" alt="" /></a>
-              </div>
-              <div>
-                <a href="#"><img src="./img/VK.svg" alt="" /></a>
-              </div>
-              <div>
-                <a href="#"><img src="./img/Instagram.svg" alt="" /></a>
-              </div>
-              <div>
-                <a href="#"><img src="./img/YouTube.svg" alt="" /></a>
-              </div>
-            </div>
+    <footer class="main-header main-footer">
+      <div class="container">
+        <div class="main-footer__wrapper main-footer__wrapper--footer">
+          <div class="main-footer__title">
+            <a
+              href="#"
+              href="#"
+              class="main-footer__title-link main-footer__title-link--footer"
+              >ПРОВОДНИК</a
+            >
           </div>
-        </section>
-        <div class="main-footer-city-garden__info-about-site">
-          <div>2020 @ООО “Город-сад”</div>
-          <div class="company">
-            Разработка сайта — <span class="webprofy">WEBPROFY</span>
+          <nav class="main-footer__links">
+            <a href="#" class="main-header__link">УСЛУГИ</a>
+            <a href="#" class="main-header__link">ЦЕНЫ</a>
+            <a href="#" class="main-header__link">КАК ЭТО РАБОТАЕТ</a>
+            <a href="#" class="main-header__link">БЛОГ</a>
+            <a href="#" class="main-header__link">О КОМПАНИИ</a>
+            <a href="#" class="main-header__link">ПРОИЗВОДИТЕЛЯМ</a>
+            <a href="#" class="main-header__link">ПРОЕКТЫ</a>
+            <a href="#" class="main-header__link">КОНТАКТЫ</a>
+          </nav>
+          <div class="main-header__contacts main-header__contacts--footer">
+            <div class="main-header__contacts-address">
+              <i class="icon-header-size-location icon-a"></i>
+              <p
+                class="main-header__contacts-address-text main-header__contacts-address-text--foooter"
+              >
+                2018.<br />
+                Все права защищены.
+              </p>
+            </div>
+            <div class="main-header__contacts-middle">
+              <div class="main-header__contacts-address">
+                <i class="icon-header-size-location icon-location"></i>
+                г. Москва, ул. Улица, 20 с. 1
+              </div>
+              <div class="main-header__contacts-media">
+                <i
+                  class="icon-header-size-phone icon-phone_bluetooth_speaker_24px"
+                ></i>
+                <div class="main-header__contacts-media-element">
+                  <div class="main-header__contacts-tel">
+                    <a
+                      class="main-header__contacts-tel-link"
+                      href="tel:8(123)123-12-88"
+                      >8(123) 123-12-88</a
+                    >
+                  </div>
+                  <div class="main-header__contacts-email">
+                    <a
+                      href="mailto:info@provodnik.ru"
+                      class="main-header__contacts-email-link"
+                      >info@provodnik.ru</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="main-header__contacts-facebook">
+                <a href="#" class="main-header__contacts-facebook-link"
+                  ><i class="icon-footer-facebook-location icon-facebook"></i
+                ></a>
+              </div>
+            </div>
+            <div class="main-header__contacts-button">
+              <button class="button button_black button_header button_footer">
+                Обратный звонок
+              </button>
+            </div>
           </div>
         </div>
-      </section>
+      </div>
     </footer>
   </body>
 </html>

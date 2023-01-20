@@ -1,0 +1,80 @@
+html {
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
+}
+.container {
+  max-width: 1200px;
+  padding: 0 25px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+.main-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+}
+.button {
+  position: relative;
+  cursor: pointer;
+  border: 0;
+  border-right: 1px solid black;
+  border-radius: 6px;
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
+  transition: 0.4s ease-in-out;
+}
+
+.button::before {
+  content: "";
+  background-image: url(../img/button-black.svg);
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  right: calc(-20%);
+  top: 0;
+  transition: 0.4s ease-in-out;
+}
+.button_orange::before {
+  background-image: url(../img/button-orange.svg);
+  transition: inherit;
+}
+.button_header {
+  padding: 9px 15px;
+}
+.button_slogan {
+  padding: 18px 42px;
+}
+.button_black {
+  background-color: #000;
+}
+.button_orange {
+  background-color: #ff5900;
+  border-right: 1px solid #ff5900;
+}
+.button_offer {
+  padding: 16px 35px;
+}
+.button_dif {
+  padding: 16px 92px;
+}
+.button_forma {
+  padding: 16px 43px;
+}
+.button_footer {
+  padding: 10px 16px;
+}
+.button:hover::before {
+  background-image: url(../img/button-yel.svg);
+}
+.button:hover {
+  color: #000;
+  background-color: #fdbf0f;
+  box-shadow: 0px 16px 32px rgba(69, 90, 100, 0.5);
+}

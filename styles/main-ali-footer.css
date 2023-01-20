@@ -1,0 +1,18 @@
+.main-footer__wrapper--footer {
+  padding-top: 50px;
+  padding-bottom: 62px;
+}
+.main-footer {
+  background-color: #f5f5f5;
+  position: static;
+}
+.main-header__contacts--footer {
+  margin-top: 123px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+.main-header__contacts-middle {
+  display: flex;
+  column-gap: 40px;
+}

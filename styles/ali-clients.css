@@ -1,0 +1,56 @@
+.ali-clients {
+  background-color: #ffffff;
+}
+.container_ali-clients {
+  background-color: #7224ea;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.14),
+    0px 16px 24px rgba(0, 0, 0, 0.08);
+  max-width: 1210px;
+  margin-bottom: 100px;
+}
+.ali-clients__header {
+  padding-top: 47px;
+}
+.slogan_ali-clients {
+  margin: 0;
+}
+.ali-clients__main-wrapper {
+  display: flex;
+  column-gap: 13.5vw;
+}
+.ali-clients__client-img {
+  box-sizing: border-box;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  min-width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ali-clients__client-img-icon {
+  font-size: 26px;
+  color: #fdbf0f;
+}
+.ali-clients__client-text {
+  display: flex;
+  flex-direction: column;
+  row-gap: 13px;
+  max-width: 285px;
+}
+.ali-clients__client {
+  max-width: 400px;
+  display: flex;
+  column-gap: 20px;
+}
+.ali-clients__client-text-header {
+  margin: 0;
+  margin-top: 5px;
+}
+.ali-clients__client-text-header-p {
+  margin: 0;
+}
+.ali-clients__main {
+  margin-top: 45px;
+  padding-bottom: 80px;
+}

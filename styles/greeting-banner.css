@@ -1,0 +1,112 @@
+.greeting-banner {
+  background: linear-gradient(
+      0deg,
+      #651fff -1.81%,
+      #ff5900 33.5%,
+      rgba(253, 191, 15, 0.3) 84.16%,
+      #ffffff 145.56%
+    ),
+    #fdbf0f;
+  position: relative;
+  z-index: 1;
+}
+.greeting-banner__position {
+  position: relative;
+}
+.greeting-banner__background {
+  position: absolute;
+  height: 100%;
+  left: -20px;
+  width: 1200px;
+  bottom: 0;
+  overflow: hidden;
+}
+.greeting-banner__slogan {
+  position: relative;
+  left: -10px;
+}
+.greeting-banner__slogan-ali {
+  position: relative;
+  top: -15px;
+  right: -20px;
+}
+.greeting-banner__slogan-title {
+  display: flex;
+  justify-content: end;
+  margin: 0;
+}
+.button_slogan {
+  margin-bottom: 45px;
+}
+.greeting-banner__slogan-info {
+  box-sizing: border-box;
+  max-width: 460px;
+  padding-top: 230px;
+  position: relative;
+  z-index: 2;
+  margin-left: -5px; /*костыль*/
+  padding-bottom: 125px;
+}
+.greeting-banner__slogan-text {
+  margin-top: 11px;
+  margin-left: 10px;
+}
+.greeting-banner__background--non-hid {
+  overflow: visible;
+}
+.back-white {
+  z-index: -3;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 720px;
+  width: 100%;
+  background: linear-gradient(
+    180deg,
+    #ffffff 0%,
+    rgba(255, 255, 255, 0) 59.03%
+  );
+}
+.back-ellipse {
+  z-index: -5;
+  box-sizing: border-box;
+  position: absolute;
+  border-radius: 50%;
+  width: 2000px;
+  height: 2000px;
+  left: 30px;
+  top: -600px;
+  border: 180px solid rgba(253, 191, 15, 0.3);
+}
+.back-ellipse_right {
+  width: 1300px;
+  height: 1300px;
+  left: 380px;
+  top: -260px;
+  border: 150px solid rgba(253, 191, 15, 0.3);
+}
+.back-img-dev {
+  position: absolute;
+  bottom: 0;
+  left: 175px;
+  z-index: -1;
+}
+.back-img-mishen {
+  position: absolute;
+  bottom: 53px;
+  right: -170px;
+  z-index: -2;
+}
+.animate__fadeInLeft {
+  animation-duration: 2s;
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+}
+.animate__fadeInLeft:nth-child(2) {
+  animation-delay: 1s;
+  animation-fill-mode: both;
+}
+.animate__fadeInLeft:nth-child(3) {
+  animation-delay: 2s;
+  animation-fill-mode: both;
+}

@@ -1,0 +1,121 @@
+.ali-difficulties {
+  background-color: #fff;
+}
+.container_ali-difficulties {
+  padding-top: 50px;
+  padding-left: 20px;
+}
+.slogan_ali-difficulties {
+  margin-bottom: 0;
+  margin-left: 5px;
+}
+.ali-difficulties_wrapper {
+  margin-left: 45px;
+  margin-right: 35px;
+}
+.ali-difficulties__container {
+  padding: 78px 0 0;
+}
+.situation_ali-difficulties {
+  padding-left: 0;
+}
+.ali-difficulties__left-element {
+  padding-left: 35px;
+  margin-bottom: 28px;
+}
+.marketing-problems__container-element--ali {
+  max-width: 517px;
+}
+.sticker_dif {
+  position: relative;
+  margin-bottom: 40px;
+}
+.sticker_dif-right {
+  background-color: #651fff;
+  max-width: 370px;
+  min-height: 40px;
+  margin-bottom: 30px;
+}
+.sticker_dif-right::before {
+  content: "";
+  background-image: url(../img/left-stroke.svg);
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  width: 2%;
+  height: 100%;
+  position: absolute;
+  left: -4px;
+}
+.sticker_dif-right::after {
+  content: "";
+  background-image: url(../img/right-stroke.svg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 5%;
+  height: 100%;
+  position: absolute;
+  right: -10px;
+  top: 0;
+}
+.sticker__text--ali {
+  position: static;
+  margin-top: 10px;
+  margin-bottom: 9px;
+  /* vertical-align: middle; */
+  text-align: center;
+}
+
+.container-right_dif {
+  padding-left: 20px;
+  max-width: 508px;
+}
+.ali-difficulties__left-list {
+  padding-right: 118px;
+  padding-left: 30px;
+  list-style: none;
+}
+.ali-difficulties__left-list-li {
+  margin-bottom: 28px;
+}
+.ali-difficulties__left-list-li::before {
+  content: url(../img/left-li.svg);
+  position: absolute;
+  left: 35px;
+}
+.ali-difficulties__right-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 58px;
+  row-gap: 40px;
+  padding-left: 0;
+  list-style: none;
+  margin: 0;
+  margin-bottom: 95px;
+}
+.ali-difficulties__right-list-li {
+  max-width: 215px;
+  width: 100%;
+  display: flex;
+  column-gap: 12px;
+}
+.ali-difficulties__right-list-img {
+  max-width: 34px;
+}
+.ali-difficulties__right-list-li--last {
+  max-width: 247px;
+}
+.ali-difficulties__right {
+  flex-direction: column;
+}
+.ali-difficulties__tesis {
+  display: flex;
+  column-gap: 20px;
+  margin-bottom: 60px;
+}
+.ali-difficulties__tesis-img {
+  max-width: 100%;
+}
+.ali-difficulties__tesis-text {
+  max-width: 333px;
+  width: 100%;
+}

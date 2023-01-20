@@ -1,11 +1,11 @@
 @font-face {
   font-family: "fontello";
-  src: url("../font/fontello.eot?80986569");
-  src: url("../font/fontello.eot?80986569#iefix") format("embedded-opentype"),
-    url("../font/fontello.woff2?80986569") format("woff2"),
-    url("../font/fontello.woff?80986569") format("woff"),
-    url("../font/fontello.ttf?80986569") format("truetype"),
-    url("../font/fontello.svg?80986569#fontello") format("svg");
+  src: url("../font/fontello.eot?21498819");
+  src: url("../font/fontello.eot?21498819#iefix") format("embedded-opentype"),
+    url("../font/fontello.woff2?21498819") format("woff2"),
+    url("../font/fontello.woff?21498819") format("woff"),
+    url("../font/fontello.ttf?21498819") format("truetype"),
+    url("../font/fontello.svg?21498819#fontello") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -15,7 +15,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'fontello';
-    src: url('../font/fontello.svg?80986569#fontello') format('svg');
+    src: url('../font/fontello.svg?21498819#fontello') format('svg');
   }
 }
 */
@@ -29,6 +29,7 @@
   display: inline-block;
   text-decoration: inherit;
   width: 1em;
+  margin-right: 0.2em;
   text-align: center;
   /* opacity: .8; */
 
@@ -41,6 +42,7 @@
 
   /* Animation center compensation - margins should be symmetric */
   /* remove if not needed */
+  margin-left: 0.2em;
 
   /* you can be more comfortable with increased icons size */
   /* font-size: 120%; */
@@ -53,18 +55,33 @@
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 
-.icon-food-service:before {
+.icon-location:before {
   content: "\e800";
 } /* '' */
-.icon-water:before {
+.icon-phone_bluetooth_speaker_24px:before {
   content: "\e801";
 } /* '' */
-.icon-broccoli:before {
+.icon-rub:before {
   content: "\e802";
 } /* '' */
-.icon-dinner:before {
+.icon-zavodik:before {
   content: "\e803";
 } /* '' */
-.icon-pot:before {
+.icon-a:before {
   content: "\e804";
 } /* '' */
+.icon-bigprodaji:before {
+  content: "\e805";
+} /* '' */
+.icon-calculator:before {
+  content: "\e806";
+} /* '' */
+.icon-dom:before {
+  content: "\e807";
+} /* '' */
+.icon-facebook:before {
+  content: "\e808";
+} /* '' */
+.icon-graph:before {
+  content: "\e809";
+} /* '' */
